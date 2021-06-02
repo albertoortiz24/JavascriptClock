@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding:0;
+    background: rgb(85,85,85);
+}
+
+.cont-reloj{
+    margin: 170px auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 220px;
+    width:40%;
+    border: 6px solid #fff;
+    background: #e5e5e5;
+    box-shadow: -13px -13px 13px #fff,
+    15px 15px 15px rgb(13, 39,80,26),
+    inset -13px -13px 13px #fff,
+    inset 15px 15px 15px rgba(13,39,80,26);
+    border-radius:15%;
+    font-weight: bold;
+    font-family: sans-serif;
+    columns: rgba(115, 204, 55);
+}
+
+.reloj{
+    font-size:2.4rem;
+}
+.datos{
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
